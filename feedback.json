@@ -1,0 +1,54 @@
+{
+  "feedback": [
+    {
+      "employee": "Nikola",
+      "role": "Tester",
+      "reviews": [
+        "Nikola is very thorough and precise in testing, but he can be overly critical of minor issues that aren't always relevant.",
+        "His communication with developers is decent, but sometimes his feedback lacks clarity, leading to confusion.",
+        "Although his bug reports are well-organized, he sometimes misses deadlines due to over-analyzing certain issues.",
+        "Nikola tends to focus too much on finding flaws, even when the product meets the required quality standards.",
+        "While he's willing to help, his approach can be too critical, which affects team morale.",
+        "He often takes longer than expected to complete tasks, which delays overall project timelines.",
+        "Although Nikola suggests improvements, he sometimes overlooks practical constraints and focuses on less critical changes.",
+        "He doesn’t handle pressure well and tends to delay urgent tests, which can be frustrating.",
+        "His attention to detail is admirable, but it often leads to unnecessary delays.",
+        "Though professional, Nikola can be inflexible and resistant to feedback about his own processes.",
+        "He is so adorable and sweet. Like him very much."
+      ]
+    },
+    {
+      "employee": "Nevena",
+      "role": "Developer",
+      "reviews": [
+        "Nevena is excellent at developing complex functionalities, quickly finds solutions.",
+        "The code she writes is always clean and well-documented.",
+        "Although she strives to deliver on time, sometimes deadlines are tight for everything that needs to be done.",
+        "Great collaboration with the team, always open to constructive suggestions.",
+        "Sometimes she spends too much time optimizing code, even though the functionality works properly.",
+        "Nevena excels when new technologies need to be implemented in a project.",
+        "She's very precise, but sometimes takes longer to finish a task due to too much attention to detail.",
+        "Quickly resolves bugs and always thoroughly tests her changes before sending them for testing.",
+        "She's always ready to help other team members and share her knowledge.",
+        "Has excellent technical skills, but sometimes is late with responses to urgent requests."
+      ]
+    },
+    {
+      "employee": "Pera",
+      "role": "Product Owner",
+      "reviews": [
+        "Pera has a clear product vision, but he sometimes struggles to communicate this vision effectively to the development team.",
+        "His communication with clients is strong, though he occasionally promises features that are not feasible within the given timeline.",
+        "He tends to make quick decisions without consulting the team, which causes confusion and delays.",
+        "While his user stories are detailed, they are sometimes overly complex and difficult for developers to follow.",
+        "Pera’s expectations can be unrealistic, especially regarding how fast features can be developed and tested.",
+        "Though he balances client requirements well, he sometimes places too much pressure on the team, leading to burnout.",
+        "He resolves client-team misunderstandings, but often without taking the time to understand the technical limitations.",
+        "His meetings are efficient but overly focused on trivial details, which can drag out important discussions.",
+        "While his market knowledge is solid, he sometimes neglects to align product decisions with the development team’s capabilities.",
+        "Pera sometimes has difficulty explaining technical requirements to the team, which leads to confusion and delays.",
+        "Very stupid guy that is very antipatic"
+      ]
+    }
+  ]
+}

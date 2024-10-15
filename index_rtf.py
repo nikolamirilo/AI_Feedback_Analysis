@@ -2,7 +2,7 @@ import os
 from groq import Groq
 import json
 
-client = Groq(api_key="")
+client = Groq(api_key="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")
 
 file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "feedback.json")
 

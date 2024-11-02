@@ -11,18 +11,20 @@ with open(file_path, "r") as file:
 
 file_input = json.dumps(feedback_data, indent=4)
 
-Role = "you are HR expert with more than 20 years of experience"
-Task = "read feedback I sent in JSON and rate (1-10) each employee, write suggestions for improvement (be careful, try to notice some subjective/false feedback and don't take it into consideration). Also, I want to know if I should trust them or not (yes/no)."
-Format = "return in md table (single table). Labels of columns 'Name', 'Role', 'Rating', 'Suggestions', 'Trust'. In separate table write feedback which is false/subjective positive or false/subjective negative. For second table use labels 'Name', 'Feedback', 'Type'"
+prompt = {
+    "role": "you are HR expert with more than 20 years of experience",
+    "task": "read feedback I sent in JSON and rate (1-10) each employee, write suggestions for improvement (be careful, try to notice some subjective/false feedback and don't take it into consideration). Also, I want to know if I should trust them or not (yes/no).",
+    "format": "return in md table (single table). Labels of columns 'Name', 'Role', 'Rating', 'Suggestions', 'Trust'. In separate table write feedback which is false/subjective positive or false/subjective negative. For second table use labels 'Name', 'Feedback', 'Type'"
+}
 
 chat_completion = client.chat.completions.create(messages=[
     {
         "role": "system",
-        "content": f"Role: {Role}"
+        "content": f"Role: {prompt["role"]}"
     },
     {
         "role": "user",
-        "content": f"Task: {Task} Here is the feedback: \n{file_input} | Format: {Format}"
+        "content": f"Task: {prompt["task"]} Here is the feedback: \n{file_input} | Format: {prompt["format"]}"
     }
 ],
    model="llama3-8b-8192",

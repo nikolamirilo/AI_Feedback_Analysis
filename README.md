@@ -1,5 +1,5 @@
 ## How to setup application
-
+- Install Git from [official website](https://git-scm.com/downloads)
 - Install Python from [official website](https://www.python.org/)
 - Clone repository `git clone https://github.com/nikolamirilo/AI_Feedback_Analysis.git`
 - Open forlder in IDE of your choice (Visual Studio Code, PyCharm, etc)

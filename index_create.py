@@ -60,7 +60,6 @@ print(response)
 
 # Save the model's response to a markdown file
 save_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results/create_feedback.md")
-
 try:
     with open(save_path, "w") as file:
         file.write(response)

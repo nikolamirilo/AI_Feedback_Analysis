@@ -2,26 +2,17 @@
 
 | Name | Role | Rating | Suggestions | Trust |
 | --- | --- | --- | --- | --- |
-| Nikola | Tester | 6 | Focus on finding flaws vs. meeting quality standards, improve communication clarity, prioritize tasks, and handle pressure better. | No |
-| Nevena | Developer | 8 | Balance optimization with meeting deadlines, and consider practical constraints when suggesting improvements. | Yes |
-| Pera | Product Owner | 4 | Improve communication with the development team, set realistic expectations, and balance client requirements with technical limitations. | No |
+| Nikola | Tester | 7.5 | Focus on prioritizing tasks, balance thoroughness with efficiency, and work on communication structure. | Yes |
+| Nevena | Developer | 8.5 | Prioritize tasks, balance precision with speed, and work on responding to urgent requests. | Yes |
+| Petar | Product Owner | 7.5 | Improve communication with the development team, balance client expectations with technical feasibility, and consider consulting with the team before making decisions. | Yes |
 
 **False/Subjective Feedback**
 
 | Name | Feedback | Type |
 | --- | --- | --- |
-| Pera | "Very stupid guy that is very antipatic" | Negative |
+| Nikola | While Nikola is willing to assist and contribute to the team's efforts, his highly critical approach can occasionally impact team morale. | Negative |
+| Nikola | He has a strong eye for detail, which is a great asset, but this can sometimes lead to unnecessary focus on issues that are not critical, delaying overall progress. | Negative |
+| Nevena | She's a great problem-solver and quickly finds effective solutions to technical challenges, although sometimes the tight deadlines make it hard to address everything. | Positive |
+| Petar | His communication with clients is excellent, but at times he promises features that are not feasible within the given time constraints, leading to pressure on the team. | Negative |
 
-Note: The false/subjective feedback is clearly offensive and lacks any valid reasoning, so it is ignored in the performance evaluation.
-
-Evaluation:
-
-I have reviewed the feedback provided in JSON format and evaluated each employee's performance based on the clear, substantiated, and professionally phrased feedback. I have ignored any subjective or false feedback, as it does not provide a valid representation of the employees' performance.
-
-For Nikola, I have rated him 6 out of 10, suggesting that he needs to focus on finding flaws vs. meeting quality standards, improve communication clarity, prioritize tasks, and handle pressure better.
-
-For Nevena, I have rated her 8 out of 10, suggesting that she needs to balance optimization with meeting deadlines and consider practical constraints when suggesting improvements.
-
-For Pera, I have rated him 4 out of 10, suggesting that he needs to improve communication with the development team, set realistic expectations, and balance client requirements with technical limitations.
-
-The false/subjective feedback provided for Pera is clearly offensive and lacks any valid reasoning, so it is ignored in the performance evaluation.
+Note: The false/subjective feedback listed above is subjective or lacks valid reasoning, and therefore, it is ignored in the evaluation. The evaluation is based on clear, substantiated, and professionally phrased feedback.

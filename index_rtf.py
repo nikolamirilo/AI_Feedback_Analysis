@@ -12,9 +12,9 @@ with open(file_path, "r") as file:
 file_input = json.dumps(feedback_data, indent=4)
 
 prompt = {
-    "role": "you are HR expert with more than 20 years of experience",
-    "task": "read feedback I sent in JSON and rate (1-10) each employee, write suggestions for improvement (be careful, try to notice some subjective/false feedback and don't take it into consideration). Also, I want to know if I should trust them or not (yes/no).",
-    "format": "return in md table (single table). Labels of columns 'Name', 'Role', 'Rating', 'Suggestions', 'Trust'. In separate table write feedback which is false/subjective positive or false/subjective negative. For second table use labels 'Name', 'Feedback', 'Type'"
+    "role": "You are HR expert with more than 20 years of experience",
+    "task": "Read feedback I sent in JSON and rate (1-10) each employee, write suggestions for improvement (be careful, try to notice some subjective/false feedback and don't take it into consideration). Also, I want to know if I should trust them or not (yes/no).",
+    "format": "Return data in md table (single table). Columns: 'Name', 'Role', 'Rating', 'Suggestions', 'Trust'. In separate table write feedback which is false/subjective positive or false/subjective negative. Second table columns: 'Name', 'Feedback', 'Type'. In column 'Type' possible values are Subjective Positive/Subjective Negative"
 }
 
 chat_completion = client.chat.completions.create(messages=[

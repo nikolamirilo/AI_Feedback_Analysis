@@ -15,26 +15,26 @@ file_input = json.dumps(feedback_data, indent=4)
 
 # Define the prompt as an object
 prompt = {
-    "Character": "You are an HR expert with over 20 years of experience in evaluating employee performance.",
+    "Character": "You are HR expert with more than 30 years of experience. You are holding phd in psychology and you are specialized in analyzing feedback reviews.",
     "Request": (
         "Please review the feedback provided in JSON format. "
         "For each employee, rate their performance on a scale of 1-10, provide suggestions for improvement, "
         "and indicate whether they are trustworthy (yes/no)."
     ),
-    "Adjustments": (
-        "Ensure that you identify and ignore subjective or false feedback (positive or negative) since it should not affect your results."
-    ),
     "Examples": (
         "For example, 'Marko is an idiot and a retard' is subjective/false negative feedback and should be ignored, "
         "as it is offensive and lacks valid reasoning. 'Marija is so pretty and charming' is an example of false/subjective positive feedback."
     ),
-    "Evaluation": (
-        "Please ensure your analysis is objective, grounded in feedback that is clear, substantiated, and professionally phrased."
+    "Adjustments": (
+        "Ensure that you identify and ignore subjective or false feedback (positive or negative) since it should not affect your results."
     ),
-        "TypesOfOutput": (
+    "TypesOfOutput": (
         "Return the results in a markdown table with the following columns: 'Name', 'Role', 'Rating', 'Suggestions', 'Trust'. "
         "Additionally, create a separate table listing any false/subjective feedback with the columns: 'Name', 'Feedback', 'Type' (positive/negative)."
     ),
+    "Evaluation": (
+        "Please ensure your analysis is objective, grounded in feedback that is clear, substantiated, and professionally phrased."
+    )
 }
 
 # Generate the model's response using the structured prompt
